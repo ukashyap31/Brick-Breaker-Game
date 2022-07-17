@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- TITLE -->
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <!--Power brick -->
+        <TableRow
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical" />
+
+        <!--Normal/Basic brick -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical" />
+
+        <!--Life brick -->
+        <TableRow android:gravity="center_vertical" />
+
+        <!-- Enemy -->
+        <TableRow android:gravity="center_vertical" />
+    </TableLayout>
+
+
+    <!-- PLAY -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="BRICK BREAKER GAME"
+        android:textColor="#090909"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:onClick="mainMenu"
+        android:src="@drawable/play_button2" />
+
+    <!-- PLAY -->
+
+    <!-- PLAY -->
+
+
+</LinearLayout>
